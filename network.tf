@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "test" {
-  name     = "my-resources"
+  name     = "network_test"
   location = "West Europe"
 }
 
